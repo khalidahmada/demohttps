@@ -1,0 +1,79 @@
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700');
+
+* {
+	box-sizing:border-box;
+}
+label {
+display: none;
+}
+h1 img{
+	display: none;
+}
+.widget{
+	/*clearfix*/
+
+	   
+    display: block;
+    clear: both;
+   
+    
+}
+.widget h1{
+	box-sizing:border-box;
+
+	font-size: 26px;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	padding: 10px 0 5px 15px;
+    margin: 0px;
+
+
+}
+.widget .container{
+background-color: #404b56;
+width: 380px;
+margin-left: -8px !important;
+
+
+}
+fieldset{
+	border: none;
+}
+.w-row select{
+	width: 340px;
+	height: 40px;
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-left: 16px;
+}
+
+#rechAv{
+	display: none;
+}
+#boutRecherche{
+box-sizing:border-box;
+float: right;
+margin-right: 8px;
+margin-bottom: 5px;
+width: 215px;
+height: 40px;
+background: url(../images/iconsearch.png)no-repeat 5px 2px;
+background-color: #fb7c63;
+color: #fff;
+border: 6px solid #404b56;
+font-size: 20px;
+border-radius: 2px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+text-align: right;
+cursor: pointer;
+
+}
+.widget {
+	margin-top: 0;
+}
